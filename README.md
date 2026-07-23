@@ -15,4 +15,6 @@ For best results in your listening project, use `tiktok-live-proto/v3` for your 
 
 * Checkout Repository
 * `npm i`
+* `cp .env.dist .env`
+* Update `.env` with your API Key, Session ID, and TT-Target-Idc parameters (all optional!)
 * `node --import=tsx src/index.ts`
